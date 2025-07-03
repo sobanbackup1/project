@@ -39,7 +39,7 @@ class Cancellation(BaseModel):
 
 def setup_driver():
     try:
-        CHROMEDRIVER_PATH = "/Users/sobanfarooq/Downloads/chromedriver-mac-x64/chromedriver"
+        CHROMEDRIVER_PATH = "path-to-your-chromedriver"
         options = Options()
         #options.add_argument("--headless")
         options.add_argument("--no-sandbox")
